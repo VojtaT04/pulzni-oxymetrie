@@ -7,7 +7,7 @@ stavbu bezpečně.
 
 ## Seznam potřebných součástek:
 - Raspberry Pi Pico
-- Vytištěné 3D modely (viz jednotlivé `.stl` soubory)
+- Vytištěné 3D modely ([viz `.stl` soubor](https://raw.githubusercontent.com/VojtaT04/pulzni-oxymetrie/main/Finální_verze.stl))
 - Oxymetr - například RCWL-0530, nebo jiný velikostně kompatibilní
 - 0.91"128 x 32 OLED displej se sběrnicí I2C
 - GeB LiPol Baterie 603048 900 mAh 3.7 V JST-PH
@@ -29,7 +29,7 @@ V případě změny zdroje energie je důležité také zajistit potřebnou ochr
 
 
 ## Stavba
-Pokud máte všechny součástky připravené, je čas pustit se do stavby. Celou stavbu budeme dělat podle schématu obvodu ![schéma obvodu](!link!).
+Pokud máte všechny součástky připravené, je čas pustit se do stavby. Celou stavbu budeme dělat podle schématu obvodu. ![schéma obvodu](https://raw.githubusercontent.com/VojtaT04/pulzni-oxymetrie/main/KiCad2.svg)
 
 ### Hardware
 1. Začneme horním PCB majícím na sobě displej a tlačítka. PCB prototypovou desku nařežeme tak, aby nám zbyla 46 x 25,6 mm velká část s mřížkou o rozměru 17 x 9 děr.
